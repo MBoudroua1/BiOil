@@ -10,6 +10,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ProComponent } from './pro/pro.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ProComponent } from './pro/pro.component';
     GoodsComponent,
     HeaderComponent,
     FooterComponent,
-    ProComponent
+    ProComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
