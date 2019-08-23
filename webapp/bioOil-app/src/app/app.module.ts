@@ -12,6 +12,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ProComponent } from './pro/pro.component';
 import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
+import { LoginComponent } from './login/login.component';
+import { SignInComponent } from './sign-in/sign-in.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { HomeComponent } from './home/home.component';
     FooterComponent,
     ProComponent,
     ContactComponent,
-    HomeComponent
+    HomeComponent,
+    LoginComponent,
+    SignInComponent
   ],
   imports: [
     BrowserModule,
